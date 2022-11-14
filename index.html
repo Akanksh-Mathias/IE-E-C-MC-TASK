@@ -3,96 +3,99 @@
     <head>
         <title>Imagine Dragons</title>
         <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class="nav main-nav">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="store.html">STORE</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>Imagine Dragons</h1>
-            <button type="button">Get Our Latest Album</button>
-            <br>
-            <br>
-            <!-- TODO: FIND A BACKGROUND IMAGE-->
-            <button type="button">&#9658;</button>
+            
+            <h1 class="band-name band-name-large">Imagine Dragons</h1>
+            <div class="container">
+            <button class="btn btn-header" type="button">Get Our Latest Album</button>
+        </div>
+            
+            <button class="btn btn-header btn-play" type="button">&#9658;</button>
         </header>
         
-        <section>
-            <h2>TOURS</h2>
+        <section class="content-section container">
+            <h2 class="section-header">TOURS</h2>
             <div>
-                <div>
-                    <strong>JUL 16</strong>
-                    &lt;&gt;
-                    <span>DETROIT, MI</span>
-                    &lt;&gt;
-                    <span>DTE MUSIC ENERGY THEATRE</span>
-                    &lt;&gt;
-                    <button type="button">BUY TICKETS</button>
-                    <hr>
+                <div class="tour-row">
+                    <strong class="tour-item tour-date">JUL 16</strong> <!--Change to span tag as strong tags are emphasised for importance-->
+                    <!--&lt;&gt;-->
+                    <span class="tour-item tour-city">DETROIT, MI</span>
+                    
+                    <span class="tour-item tour-arena">DTE MUSIC ENERGY THEATRE</span>
+                    
+                    <button type="button" class="btn tour-item tour-btn btn-primary">BUY TICKETS</button>
+                    <!--<hr>-->
                 </div>
-                <div>
-                    <strong>JUL 22</strong>
-                    &lt;&gt;
-                    <span>DETROIT, MI</span>
-                    &lt;&gt;
-                    <span>DTE MUSIC AMPHITHEATRE</span>
-                    &lt;&gt;
-                    <button type="button">BUY TICKETS</button>
-                    <hr>
+                <div class="tour-row">
+                    <strong class="tour-item tour-date">JUL 22</strong>
+                    
+                    <span class="tour-item tour-city">DETROIT, MI</span>
+                   
+                    <span class="tour-item tour-arena">DTE MUSIC AMPHITHEATRE</span>
+                    
+                    <button type="button" class="btn tour-item tour-btn btn-primary">BUY TICKETS</button>
+                    
                 </div>
-                <div>
-                    <strong>JUL 29</strong>
-                    &lt;&gt;
-                    <span>LAS VEGAS, NEVADA</span>
-                    &lt;&gt;
-                    <span>DETEE MUSIC ENERGY THEATRE</span>
-                    &lt;&gt;
-                    <button type="button">BUY TICKETS</button>
-                    <hr>
+                <div class="tour-row">
+                    <strong class="tour-item tour-date">JUL 29</strong>
+                    
+                    <span class="tour-item tour-city">LAS VEGAS, NEVADA</span>
+                    
+                    <span class="tour-item tour-arena">DETEE MUSIC ENERGY THEATRE</span>
+                    
+                    <button type="button" class="btn tour-item tour-btn btn-primary">BUY TICKETS</button>
+                    
                 </div>
-                <div>
-                    <strong>AUG 3</strong>
-                    &lt;&gt;
-                    <span>KAMATH CIRCLE, SP</span>
-                    &lt;&gt;
-                    <span>STUDENT PLAZA</span>
-                    &lt;&gt;
-                    <button type="button">BUY TICKETS</button>
-                    <hr>
+                <div class="tour-row">
+                    <strong class="tour-item tour-date">AUG 3</strong>
+                    
+                    <span class="tour-item tour-city">KAMATH CIRCLE, SP</span>
+                    
+                    <span class="tour-item tour-arena">STUDENT PLAZA</span>
+                   
+                    <button type="button" class="btn tour-item tour-btn btn-primary">BUY TICKETS</button>
+                    
                 </div>
-                <div>
-                    <strong>AUG 12</strong>
-                    &lt;&gt;
-                    <span>DETEE, MANIPAL</span>
-                    &lt;&gt;
-                    <span>BADHSHAAH</span>
-                    &lt;&gt;
-                    <button type="button">BUY TICKETS</button>
-                    <hr>
+                <div class="tour-row">
+                    <strong class="tour-item tour-date">AUG 12</strong>
+                   
+                    <span class="tour-item tour-city">DETEE, MANIPAL</span>
+                  
+                    <span class="tour-item tour-arena">BADHSHAAH</span>
+                  
+                    <button type="button" class="btn tour-item tour-btn btn-primary">BUY TICKETS</button>
+                    
                 </div>
-                <div>
-                    <strong>AUG 19</strong>
-                    &lt;&gt;
-                    <span>CANT HAVE, DETROIT</span>
-                    &lt;&gt;
-                    <span>COUNTRY INN</span>
-                    &lt;&gt;
-                    <button type="button">BUY TICKETS</button>
+                <div class="tour-row">
+                    <strong class="tour-item tour-date">AUG 19</strong>
+                  
+                    <span class="tour-item tour-city">CANT HAVE, DETROIT</span>
+               
+                    <span class="tour-item tour-arena">COUNTRY INN</span>
+                 
+                    <button type="button" class="btn tour-item tour-btn btn-primary">BUY TICKETS</button>
                 </div>
             </div>
         </section>
-        <footer>
-            <h3>Imagine Dragons</h3>
-            <ul>
-                <li><a href="https://youtube.com" target="_blank"><img src="images/youtube.png"width="100"></a></li>
-                <li><a href="https://spotify.com" target="_blank"><img src="images/spotify.png"></a></li>
-                <li><a href="https://facebook.com" target="_blank"><img src="images/facebook.png"></a></li>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+            <h3 class="band-name">Imagine Dragons</h3>
+            <ul class="nav footer-nav">
+                <li><a href="https://youtube.com" target="_blank"><img class="youtube" src="images/youtube.png"width="100"></a></li>
+                <li><a href="https://spotify.com" target="_blank"><img src="images/spotify.png"width="60"></a></li>
+                <li><a href="https://facebook.com" target="_blank"><img src="images/facebook.png"width="70"></a></li>
             </ul>
+        </div>
         </footer>
     </body>
 </html>
